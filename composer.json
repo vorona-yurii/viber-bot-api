@@ -1,0 +1,26 @@
+{
+    "name": "amemorypro/viber.php.api",
+    "description": "Php bot interface to work with Viber API",
+    "keywords": ["viber", "im", "bot"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "amemorypro",
+            "email": "amemorypro@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Viber\\": "src/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8",
+        "monolog/monolog": "^1.22"
+    }
+}
