@@ -1,13 +1,13 @@
 {
-    "name": "amemorypro/viber.php.api",
+    "name": "vorona-yurii/viber-bot-api",
     "description": "Php bot interface to work with Viber API",
     "keywords": ["viber", "im", "bot"],
     "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "amemorypro",
-            "email": "amemorypro@gmail.com"
+            "name": "Yurii Vorona",
+            "email": "voronyu1331@gmail.com"
         }
     ],
     "require": {
