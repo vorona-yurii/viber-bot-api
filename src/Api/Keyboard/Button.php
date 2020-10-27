@@ -145,6 +145,8 @@ class Button extends Entity
      */
     protected $Silent;
 
+    protected $InternalBrowser;
+
     /**
      * {@inheritDoc}
      */
@@ -166,6 +168,7 @@ class Button extends Entity
             'TextOpacity' => $this->getTextOpacity(),
             'TextSize' => $this->getTextSize(),
             'Silent' => $this->isSilent(),
+            'InternalBrowser' => $this->getInternalBrowser()
         ];
     }
 
@@ -521,6 +524,29 @@ class Button extends Entity
     public function setSilent($Silent)
     {
         $this->Silent = $Silent;
+
+        return $this;
+    }
+
+    /**
+     * Get the value of Array containing all keyboard buttons by order
+     *
+     * @return array
+     */
+    public function getInternalBrowser()
+    {
+        return $this->InternalBrowser;
+    }
+
+    /**
+     *
+     * @param array InternalBrowser
+     *
+     * @return self
+     */
+    public function setInternalBrowser(array $InternalBrowser)
+    {
+        $this->InternalBrowser = $InternalBrowser;
 
         return $this;
     }
