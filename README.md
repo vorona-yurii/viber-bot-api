@@ -77,6 +77,7 @@ See more in **examples** directory.
 │   │   └── ApiException.php      # remote or logic error
 │   ├── Keyboard                  #
 │   │   └── Button.php            # all types of buttons here
+│   │   └── InternalBrowser.php   #
 │   ├── Keyboard.php              # button container
 │   ├── Message                   #
 │   │   ├── CarouselContent.php   #
