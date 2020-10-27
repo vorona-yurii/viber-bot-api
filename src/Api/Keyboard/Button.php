@@ -147,6 +147,8 @@ class Button extends Entity
 
     protected $InternalBrowser;
 
+    protected $OpenUrlType;
+
     /**
      * {@inheritDoc}
      */
@@ -168,7 +170,8 @@ class Button extends Entity
             'TextOpacity' => $this->getTextOpacity(),
             'TextSize' => $this->getTextSize(),
             'Silent' => $this->isSilent(),
-            'InternalBrowser' => $this->getInternalBrowser()
+            'InternalBrowser' => $this->getInternalBrowser(),
+            'OpenURLType' => $this->getOpenURLType(),
         ];
     }
 
@@ -539,14 +542,31 @@ class Button extends Entity
     }
 
     /**
-     *
-     * @param array InternalBrowser
+     * @return self
+     */
+    public function setInternalBrowser($InternalBrowser)
+    {
+        $this->InternalBrowser = $InternalBrowser;
+
+        return $this;
+    }
+
+    /**
+     * @return string
+     */
+    public function getOpenUrlType()
+    {
+        return $this->OpenUrlType;
+    }
+
+    /**
+     * @param string OpenUrlType
      *
      * @return self
      */
-    public function setInternalBrowser(array $InternalBrowser)
+    public function setOpenUrlType($OpenUrlType)
     {
-        $this->InternalBrowser = $InternalBrowser;
+        $this->OpenUrlType = $OpenUrlType;
 
         return $this;
     }

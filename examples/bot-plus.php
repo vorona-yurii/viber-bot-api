@@ -90,6 +90,9 @@ try {
                                             ->setActionType('reply')
                                             ->setActionBody('btn-click')
                                             ->setText('Tap this button')
+                                            ->setInternalBrowser((new \Viber\Api\Keyboard\InternalBrowser())
+                                                ->setMode('')
+                                            )
                                     ])
                             )
                     );
