@@ -37,6 +37,8 @@ class Factory
                     return new Sticker($data);
                 case Type::LOCATION:
                     return new Location($data);
+                case Type::KEYBOARD:
+                    return new Keyboard($data);
             }
         }
         throw new ApiException('Unknow message data');

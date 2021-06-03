@@ -18,4 +18,5 @@ interface Type
     const URL = 'url';
     const LOCATION = 'location';
     const RICH_MEDIA = 'rich_media';
+    const KEYBOARD = '';
 }

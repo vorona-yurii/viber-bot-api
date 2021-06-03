@@ -8,7 +8,7 @@ Library to develop a bot for the Viber platform. [Create you first Viber bot ste
 ## Installation
 
 ```
-composer require bogdaan/viber-bot-php
+composer require vorona-yurii/viber-bot-php
 ```
 
 ## Example
@@ -90,7 +90,8 @@ See more in **examples** directory.
 │   │   ├── Text.php              #
 │   │   ├── Type.php              # available message types
 │   │   ├── Url.php               #
-│   │   └── Video.php             #
+│   │   ├── Video.php             #
+│   │   └── Keyboard.php          #
 │   ├── Message.php               # base class for all messages
 │   ├── Response.php              # wrap api response
 │   ├── Sender.php                # represent bot-sender
