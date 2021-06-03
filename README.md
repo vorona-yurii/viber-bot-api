@@ -8,7 +8,7 @@ Library to develop a bot for the Viber platform. [Create you first Viber bot ste
 ## Installation
 
 ```
-composer require vorona-yurii/viber-bot-php
+composer require vorona-yurii/viber-bot-api
 ```
 
 ## Example
