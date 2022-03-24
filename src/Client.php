@@ -120,6 +120,20 @@ class Client
     }
 
     /**
+     * Reset webhook url
+     *
+     * @see \Viber\Api\Event\Type
+     * @throws \Viber\Api\Exception\ApiException
+     * @return \Viber\Api\Response
+     */
+    public function resetWebhook()
+    {
+        return $this->call('set_webhook', [
+            'url' => ''
+        ]);
+    }
+
+    /**
      * Fetch the public account’s details as registered in Viber
      *
      * @throws \Viber\Api\Exception\ApiException

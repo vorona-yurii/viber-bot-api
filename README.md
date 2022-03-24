@@ -129,5 +129,3 @@ See more in **examples** directory.
 ## Contributing
 
 Pull requests are welcome.
-# viber.php.api
-# viber-bot-api
